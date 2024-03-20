@@ -46,3 +46,68 @@ The script performs the following steps:
 9. Exit the loop if 'q' is pressed.
 10. Release the webcam and close all OpenCV windows.
 
+
+# Face Recognition System
+
+This repository contains a Python script for building and evaluating a face recognition system using machine learning algorithms.
+
+## Dataset
+
+The Olivetti Faces dataset is used for training and testing the face recognition system. This dataset consists of 400 grayscale images of 40 distinct subjects, with each subject having 10 different images.
+
+## Prerequisites
+
+- Python 3.x
+- TensorFlow
+- scikit-learn
+- matplotlib
+- seaborn
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/face-recognition.git
+```
+
+2. Install the required Python libraries:
+
+```bash
+pip install numpy tensorflow scikit-learn matplotlib seaborn
+```
+
+## Usage
+
+1. Navigate to the cloned directory:
+
+```bash
+cd face-recognition
+```
+
+2. Run the Python script:
+
+```bash
+python face_recognition.py
+```
+
+3. The script will load the Olivetti Faces dataset, preprocess the data, train machine learning models for face recognition, and evaluate their performance.
+
+## Machine Learning Models
+
+The following machine learning models are trained and evaluated for face recognition:
+
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Linear Discriminant Analysis (LDA)
+- Logistic Regression
+- Naive Bayes
+- Decision Tree
+
+## Evaluation Metrics
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+
